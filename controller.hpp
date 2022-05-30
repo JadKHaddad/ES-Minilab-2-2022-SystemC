@@ -20,21 +20,27 @@ SC_MODULE( Controller )
   {   00,	00,	00,	00,	00,	00,	00,	00,	00,	00  },
   {   00,	00,	00,	00,	00,	00,	00,	00,	00,	00  }
   };
-  
   int map[N][N];
 
   sc_in<bool> clk;
   sc_uint<16> index = 0;
+  sc_uint<16> free_positions_limit = 1;
   Pos free_positions[N*N];
 
-  sc_out <sc_uint<16>> travel_out[DRONE_COUNT];
+  sc_out <sc_uint<16>> travel_dist_out[DRONE_COUNT];
   sc_in<bool> ready_in[DRONE_COUNT];
-  //sc_in<sc_uint<16>> drone_rows_in[DRONE_COUNT];
-  //sc_in<sc_uint<16>> drone_cols_in[DRONE_COUNT];
+  sc_in<sc_uint<16>> drone_rows_in[DRONE_COUNT];
+  sc_in<sc_uint<16>> drone_cols_in[DRONE_COUNT];
+
+  sc_out<sc_uint<16>> dest_rows_out[DRONE_COUNT];
+  sc_out<sc_uint<16>> dest_cols_out[DRONE_COUNT];
 
   sc_uint<16> k = 1;
-  void main();
 
+  //methods
+  void main();
+  tuple<int, int> get_index_and_dist_of_a_free_drone(Pos dest);
+  void print_maps();
   SC_CTOR( Controller )
   {
     for(int i = 0; i < N; ++i)
@@ -44,6 +50,11 @@ SC_MODULE( Controller )
         map[i][j] = 0;
       }
     }
+    for(int i = 0; i < N*N; ++i)
+    {
+      free_positions[i] = Pos();
+    }
+    // print_maps();
     SC_CTHREAD(main, clk.pos());
   }
 };

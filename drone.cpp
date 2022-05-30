@@ -8,7 +8,7 @@ void Drone::main()
     {   
         wait();
         const char* name = sc_core::sc_get_current_process_b()->get_parent_object()->basename();
-        int data = travel_in.read();
+        int data = travel_dist_in.read();
         cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << name << "):" << "travel is: " << data << endl;
 
         if (data > 0)
