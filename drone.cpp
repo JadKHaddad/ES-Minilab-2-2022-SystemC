@@ -7,21 +7,21 @@ void Drone::main()
     while(true)
     {   
         wait();
-        
-        // int data = travel.read();
-        // cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << "Drone" << "):" << "travel is: " << data << endl;
+        const char* name = sc_core::sc_get_current_process_b()->get_parent_object()->basename();
+        int data = travel_in.read();
+        cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << name << "):" << "travel is: " << data << endl;
 
-        // if (data > 0)
-        // {
-        //     cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << "Drone" << "):" << "travelling" << endl;
-        //     ready.write(false);
-        //     int i = 0;
-        //     while (i < data * 1000) {
-        //         wait(clk.posedge_event());
-        //         i++;
-        //     }
-        //     ready.write(true);
-        // }
+        if (data > 0)
+        {
+            cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << name << "):" << "travelling" << endl;
+            ready_out.write(false);
+            int i = 0;
+            while (i < data * 1000) {
+                wait(clk.posedge_event());
+                i++;
+            }
+            ready_out.write(true);
+        }
     }
     
     

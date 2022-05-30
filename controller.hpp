@@ -14,10 +14,10 @@ SC_MODULE( Controller )
 
   sc_out <sc_uint<16>> travel_out[DRONE_COUNT];
   sc_in<bool> ready_in[DRONE_COUNT];
-  sc_in<sc_uint<16>> drone_rows_in[DRONE_COUNT];
-  sc_in<sc_uint<16>> drone_cols_in[DRONE_COUNT];
+  //sc_in<sc_uint<16>> drone_rows_in[DRONE_COUNT];
+  //sc_in<sc_uint<16>> drone_cols_in[DRONE_COUNT];
 
-  sc_uint<16> i = 1;
+  sc_uint<16> j = 1;
   void main();
 
   SC_CTOR( Controller )
