@@ -10,10 +10,10 @@ void Controller::main()
         {
             if(ready_in[i].read())
             {
-                travel_out[i].write(j);
-                cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << "Controller" << "):" << "travel sent: " << j << " to: " << i << endl;
-                j++;
-                if (j > 10){
+                travel_out[i].write(k);
+                cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << "Controller" << "):" << "travel sent: " << k << " to: " << i << endl;
+                k++;
+                if (k > 10){
                     sc_stop();
                 } 
             }

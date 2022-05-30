@@ -13,7 +13,7 @@ void print_(std::string s)
   cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << name << "):" << s << endl;
 }
 
-int min_distance(char grid[N][N], Pos from, Pos to)
+int min_distance(int grid[N][N], Pos from, Pos to)
 {
     QItem source(from.row, from.col, 0);
 
@@ -23,10 +23,17 @@ int min_distance(char grid[N][N], Pos from, Pos to)
 	for (int i = 0; i < N; i++) {
 		for (int j = 0; j < N; j++)
 		{
-			if (grid[i][j] == '0')
-				visited[i][j] = true;
-			else
+			if(i == to.row && j == to.col)
+			{
 				visited[i][j] = false;
+				continue;
+			}
+			if (grid[i][j] == 0 || grid[i][j] == 99 || grid[i][j] == 2 || grid[i][j] == 3) //cant visit 0 is unknown, 99 is wall, 2 to be discovered, 3 a drone is there
+			{
+				visited[i][j] = true;
+				continue;
+			}
+			visited[i][j] = false; //1 can visit is discovered
 		}
 	}
 

@@ -17,7 +17,9 @@ int sc_main(int argc, char* argv[])
   Drone *drones[DRONE_COUNT];
 
   for(int i = 0; i < DRONE_COUNT; ++i){
-    drones[i] = new Drone("drone_" + i);
+    auto name = "drone_" + std::to_string( i );
+    const char *cname = name.c_str();
+    drones[i] = new Drone(cname);
     drones[i]->clk(clksig);
     controller.travel_out[i](travel_signals[i]);
     drones[i]->travel_in(travel_signals[i]);
@@ -26,14 +28,22 @@ int sc_main(int argc, char* argv[])
   }
 
   sc_start();
-  // char grid[N][N] = 
-  // { { '0', '*', '0', '*' },
-	// 	{ '*', '0', '*', '*' },
-	// 	{ '0', '*', '*', '*' },
-	// 	{ '*', '*', '*', '*' } 
+
+  // int grid[N][N] = {
+  // {   00,	00,	00,	00,	00,	00,	00,	00,	00,	00  },
+  // {   00,	00,	00,	00,	00,	00,	00,	00,	00,	00  },
+  // {   00,	00,	00,	00,	00,	00,	00,	00,	00,	00  },
+  // {   00,	00,	00,	00,	00,	00,	00,	00,	00,	00  },
+  // {   00,	00,	00,	00,	00,	00,	00,	00,	00,	00  },
+  // {   00,	00,	00,	00,	00,	00,	00,	00,	00,	00  },
+  // {   00,	00,	00,	00,	00,	00,	00,	00,	00,	00  },
+  // {   00,	00,	00,	00,	00,	00,	00,	00,	00,	00  },
+  // {   00,	00,	00,	00,	00,	00,	00,	00,	00,	00  },
+  // {   00,	00,	00,	00,	00,	00,	00,	00,	00,	00  }
   // };
-  // int i = min_distance(grid, Pos(0,3), Pos(3,0));
-	// cout << i << endl;
+
+  //int i = min_distance(grid, Pos(0,0), Pos(0,9));
+	//cout << i << endl;
 
   cout << "Freeing Memory" << endl;
   for(int i = 0; i < DRONE_COUNT; ++i){

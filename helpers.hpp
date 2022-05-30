@@ -30,7 +30,7 @@ public:
 	Pos();
 };
 
-int min_distance(char grid[N][N], Pos from, Pos to);
+int min_distance(int grid[N][N], Pos from, Pos to);
 
 void print_(std::string s);
 
