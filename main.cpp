@@ -4,25 +4,25 @@
 #include "helpers.hpp"
 #include "const.hpp"
 
-
 int sc_main(int argc, char* argv[])
 {
+  sc_clock clksig("clk", 1, SC_MS);
   Controller controller("Controller");
-  Drone drone_1("Drone_1");
 
-  sc_clock clksig("clk", 1, SC_SEC);
-
-  sc_signal <sc_uint<16>> travel_sig;
-  sc_signal <bool> ready_sig;
   controller.clk(clksig);
-  drone_1.clk(clksig);
 
-  controller.travel(travel_sig);
-  drone_1.travel(travel_sig);
+  //sc_vector<Drone> drones;
+  for(int i = 0; i < DRONE_COUNT; ++i){
+    Drone drone("drone_" + i);
+    drone.clk(clksig);
+    sc_signal <sc_uint<16>> travel_sig;
+    sc_signal <bool> ready_sig;
+    controller.travel_out[i](travel_sig);
+    drone.travel_in(travel_sig);
+    controller.ready_in[i](ready_sig);
+    drone.ready_out(ready_sig);
+  }
 
-  drone_1.ready(ready_sig);
-  controller.ready(ready_sig);
-  
   sc_start();
   // char grid[N][N] = 
   // { { '0', '*', '0', '*' },

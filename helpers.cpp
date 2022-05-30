@@ -1,6 +1,12 @@
 #include <systemc.h>
 #include "helpers.hpp"
 
+Pos::Pos()
+{
+	row=0;
+	col=0;
+}
+
 void print_(std::string s) 
 {
   const char* name = sc_core::sc_get_current_process_b()->get_parent()->basename();

@@ -26,7 +26,8 @@ public:
     Pos(int x, int y)
         : row(x), col(y)
     {
-    }   
+    }
+	Pos();
 };
 
 int min_distance(char grid[N][N], Pos from, Pos to);
