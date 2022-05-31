@@ -30,6 +30,16 @@ public:
 	Pos();
 };
 
+class IndexDist{
+public:
+    int index;
+    int dist;
+    IndexDist(int x, int y)
+        : index(x), dist(y)
+    {
+    }
+};
+
 int min_distance(int grid[N][N], Pos from, Pos to);
 
 void print_(std::string s);

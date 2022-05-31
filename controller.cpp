@@ -21,7 +21,7 @@ void Controller::print_maps()
     }
 }
 
-tuple<int, int> Controller::get_index_and_dist_of_a_free_drone(Pos dest)
+IndexDist Controller::get_index_and_dist_of_a_free_drone(Pos dest)
 {
     int drone_index = -1;
     int min_dist = -1;
@@ -44,18 +44,18 @@ tuple<int, int> Controller::get_index_and_dist_of_a_free_drone(Pos dest)
                 }
             }
         }
-    return std::make_tuple(drone_index, min_dist);
+    return IndexDist(drone_index, min_dist);
 }
 
-void Controller::main()
+void Controller::source()
 {
     while(true)
     {
         wait();
         Pos dest = free_positions[index];
-        auto tuple_index_dist = get_index_and_dist_of_a_free_drone(dest);
-        int drone_index = get<0>(tuple_index_dist);
-        int dist = get<1>(tuple_index_dist);
+        auto index_dist = get_index_and_dist_of_a_free_drone(dest);
+        int drone_index = index_dist.index;
+        int dist = index_dist.dist;
 
         cout << "index: " << drone_index << " dist: " << dist << endl;
         if (drone_index > -1)
@@ -63,37 +63,23 @@ void Controller::main()
             travel_dist_out[drone_index].write(k);
             dest_rows_out[drone_index].write(dest.row);
             dest_cols_out[drone_index].write(dest.col);
-
+            //mark dest "to be discovered"
+            map[dest.row][dest.col] = 2;
 
             cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << "Controller" << "):" << "Dest (" << dest.row << ", " << dest.col << ") to drone: " << drone_index << " with dist: " << dist << endl;
             k++;
             if (k > 10){
                 sc_stop();
             } 
-        }
-
-        // wait();
-        // int free_drone_index = get_index_of_free_drone();
-        // if (free_drone_index > -1)
-        // {
-        //     travel_out[free_drone_index].write(k);
-        //     cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << "Controller" << "):" << "travel sent: " << k << " to: " << free_drone_index << endl;
-        //     k++;
-        //     if (k > 10){
-        //         sc_stop();
-        //     } 
-        // }
-        
-        // if (ready.read())
-        // {
-        //     travel.write(i);
-        //     cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << "Controller" << "):" << "travel sent: " << i << endl;
-        //     i = i + 1;
-        //     if (i > 10){
-        //         sc_stop();
-        //     }
-        // }
-            
+        }      
     }
+}
 
+void Controller::sink()
+{
+    while(true)
+    {
+        wait();
+        //look for new discovered places
+    }
 }
