@@ -34,8 +34,14 @@ void Drone::main()
             j++;
         }
         cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << name << "):" << "finished discovering" << endl;
+
+        vld_out.write(true);
         current_pos_row_out.write(current_dest_row_in.read());
         current_pos_col_out.write(current_pos_col_out.read());
-
+        do {
+            cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << name << "):" << "waiting for controller" << endl;
+            wait();
+        } while (!ready_in.read());
+        vld_out.write(false);
     }
 }

@@ -1,4 +1,3 @@
-#include <systemc.h>
 #include "controller.hpp"
 
 using namespace std;
@@ -83,5 +82,22 @@ void Controller::source()
 
 void Controller::sink()
 {
-
+    for(int i = 0; i< DRONE_COUNT; ++i){
+        ready_out[i].write(false);
+    }
+    while(true)
+    {      
+        wait();
+        for(int i = 0; i< DRONE_COUNT; ++i){
+            if(vld_in[i].read())
+            {
+                ready_out[i].write(true);
+                do {
+                    wait();
+                } while(!vld_in[i].read());
+                ready_out[i].write(false);
+                cout << "drone: " << i << " finished" << endl;
+            }
+        }    
+    }
 }

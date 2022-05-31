@@ -1,6 +1,7 @@
 #ifndef CONTROLLER
 #define CONTROLLER
 
+#include <systemc.h>
 #include "const.hpp"
 #include "helpers.hpp"
 
@@ -48,6 +49,7 @@ SC_MODULE( Controller )
   void sink();
   IndexDist get_index_and_dist_of_a_free_drone(Pos dest);
   void print_maps();
+
   SC_CTOR( Controller )
   {
     for(int i = 0; i < N; ++i)
