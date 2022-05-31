@@ -11,8 +11,10 @@ int sc_main(int argc, char* argv[])
 
   controller.clk(clksig);
 
-  // sc_vector<Drone> drones;
   sc_signal<bool> ready_signals[DRONE_COUNT];
+  sc_signal<bool> vld_signals[DRONE_COUNT];
+  sc_signal<bool> ready_signals_o[DRONE_COUNT];
+  sc_signal<bool> vld_signals_o[DRONE_COUNT];
   sc_signal<sc_uint<16>> travel_dist_signals[DRONE_COUNT];
   sc_signal<sc_uint<16>> drone_rows_signals[DRONE_COUNT];
   sc_signal<sc_uint<16>> drone_cols_signals[DRONE_COUNT];
@@ -31,6 +33,15 @@ int sc_main(int argc, char* argv[])
 
     controller.ready_in[i](ready_signals[i]);
     drones[i]->ready_out(ready_signals[i]);
+
+    controller.vld_in[i](vld_signals[i]);
+    drones[i]->vld_out(vld_signals[i]);
+
+    controller.ready_out[i](ready_signals_o[i]);
+    drones[i]->ready_in(ready_signals_o[i]);
+
+    controller.vld_out[i](vld_signals_o[i]);
+    drones[i]->vld_in(vld_signals_o[i]);
 
     controller.drone_rows_in[i](drone_rows_signals[i]);
     drones[i]->current_pos_row_out(drone_rows_signals[i]);

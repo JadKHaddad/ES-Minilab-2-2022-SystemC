@@ -47,24 +47,30 @@ IndexDist Controller::get_index_and_dist_of_a_free_drone(Pos dest)
     return IndexDist(drone_index, min_dist);
 }
 
+
 void Controller::source()
 {
     while(true)
     {
         wait();
         Pos dest = free_positions[index];
-        auto index_dist = get_index_and_dist_of_a_free_drone(dest);
+        IndexDist index_dist = get_index_and_dist_of_a_free_drone(dest);
         int drone_index = index_dist.index;
         int dist = index_dist.dist;
-
-        cout << "index: " << drone_index << " dist: " << dist << endl;
+        //cout << "drone index: " << drone_index << " dist: " << dist << endl;
         if (drone_index > -1)
-        {
-            travel_dist_out[drone_index].write(k);
+        {   
+            vld_out[drone_index].write(true);
+            travel_dist_out[drone_index].write(dist);
             dest_rows_out[drone_index].write(dest.row);
             dest_cols_out[drone_index].write(dest.col);
             //mark dest "to be discovered"
             map[dest.row][dest.col] = 2;
+
+            do {
+                wait();
+            } while (!ready_in[drone_index].read());
+            vld_out[drone_index].write(false);
 
             cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << "Controller" << "):" << "Dest (" << dest.row << ", " << dest.col << ") to drone: " << drone_index << " with dist: " << dist << endl;
             k++;
@@ -77,9 +83,5 @@ void Controller::source()
 
 void Controller::sink()
 {
-    while(true)
-    {
-        wait();
-        //look for new discovered places
-    }
+
 }

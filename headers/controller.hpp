@@ -28,8 +28,12 @@ SC_MODULE( Controller )
   Pos free_positions[N*N];
 
   sc_out <sc_uint<16>> travel_dist_out[DRONE_COUNT];
+
   sc_in<bool> ready_in[DRONE_COUNT];
   sc_in<bool> vld_in[DRONE_COUNT];
+
+  sc_out<bool> ready_out[DRONE_COUNT];
+  sc_out<bool> vld_out[DRONE_COUNT];
 
   sc_in<sc_uint<16>> drone_rows_in[DRONE_COUNT];
   sc_in<sc_uint<16>> drone_cols_in[DRONE_COUNT];
