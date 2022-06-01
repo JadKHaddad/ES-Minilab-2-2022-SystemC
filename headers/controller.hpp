@@ -5,8 +5,6 @@
 #include "const.hpp"
 #include "helpers.hpp"
 
-using namespace std;
-
 SC_MODULE( Controller )
 {
   /*
