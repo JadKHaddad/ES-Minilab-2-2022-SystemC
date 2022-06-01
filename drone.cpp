@@ -16,7 +16,13 @@ void Drone::main()
         do {
             wait();
         } while(!vld_in.read());
+        bool come_back = false;
         int travel_dist = travel_dist_in.read();
+        if (travel_dist < 0)
+        {
+            come_back = true;
+            travel_dist = -1 * travel_dist; 
+        }
         ready_out.write(false);
 
         cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << name << "): " << "Travelling" << endl;
@@ -26,15 +32,17 @@ void Drone::main()
             wait(clk.posedge_event());
             i++;
         }
-        cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << name << "): " << "Discovering" << endl;
-        //arrived, discovering
-        int j = 0;
-        while (j < 5 * 1000) { // 5 seconds
-            wait(clk.posedge_event());
-            j++;
+        if(!come_back)
+        {
+            cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << name << "): " << "Discovering" << endl;
+            //arrived, discovering
+            int j = 0;
+            while (j < 5 * 1000) { // 5 seconds
+                wait(clk.posedge_event());
+                j++;
+            }
+            cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << name << "): " << "Finished discovering" << endl;
         }
-        cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << name << "): " << "Finished discovering" << endl;
-
         vld_out.write(true);
         cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << name << "): " << "Waiting for controller" << endl;
         do {

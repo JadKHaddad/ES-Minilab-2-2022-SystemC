@@ -2,5 +2,5 @@
 #define CONST
 
 #define N 10
-#define DRONE_COUNT 2
+#define DRONE_COUNT 5
 #endif

@@ -28,12 +28,12 @@ int min_distance(int grid[N][N], Pos from, Pos to)
 				visited[i][j] = false;
 				continue;
 			}
-			if (grid[i][j] == 0 || grid[i][j] == 99 || grid[i][j] == 2 || grid[i][j] == 3) //cant visit 0 is unknown, 99 is wall, 2 to be discovered, 3 a drone is there
+			if (grid[i][j] == 0 || grid[i][j] == 99 || grid[i][j] == 2 || grid[i][j] == 3 || grid[i][j] == -1) //cant visit 0 is unknown, 99 is wall, 2 to be discovered, 3 a drone is there, -1 could be discovered
 			{
 				visited[i][j] = true;
 				continue;
 			}
-			visited[i][j] = false; //1 can visit is discovered or -1 can visit to be discovered
+			visited[i][j] = false; //1 can visit is discovered
 		}
 	}
 

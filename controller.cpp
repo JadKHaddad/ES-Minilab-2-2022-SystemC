@@ -1,6 +1,6 @@
 #include "controller.hpp"
 
-void Controller::print_maps()
+void Controller::print_map()
 {
     cout << endl << "Map" << endl;
     for(int i = 0; i < N; ++i)
@@ -17,7 +17,10 @@ void Controller::print_maps()
         }
         cout << endl;
     }
-    cout << endl;
+}
+
+void Controller::print_real_world_map()
+{
     cout << "Real world Map" << endl;
     for(int i = 0; i < N; ++i)
     {
@@ -142,6 +145,8 @@ void Controller::expand_path(Pos new_pos)
 
 void Controller::source()
 {
+    print_real_world_map();
+    cout << endl;
     while(true)
     {
         wait();
@@ -149,9 +154,25 @@ void Controller::source()
         {
             if(working_drones_count == 0)
             {   
-                cout << "Mission complete" << endl;
-                print_maps();
-                sc_stop();
+                cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << "Controller" << "): Mission complete, calling drones back" << endl;
+                print_map();
+                cout << endl;
+                print_real_world_map();
+                cout << endl;
+                for(int i = 0; i < DRONE_COUNT; ++i)
+                {
+                    Pos drone_pos = drones_positions[i];
+                    map[drone_pos.row][drone_pos.col] = 1;
+                    int dist = min_distance(map, drone_pos, Pos(0,0));
+                    vld_out[i].write(true);
+                    travel_dist_out[i].write(-1 * dist);
+                    drones_positions[i] = Pos(-1, -1);
+                    do {
+                        wait();
+                    } while (!ready_in[i].read());
+                    vld_out[i].write(false);
+                }
+                break;
             }
             continue;
         }
@@ -192,6 +213,11 @@ void Controller::sink()
     while(true)
     {      
         wait();
+        if(came_back_drones_cout == DRONE_COUNT)
+        {
+            cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << "Controller" << "): All drones came back" << endl;
+            sc_stop();
+        }
         for(int i = 0; i< DRONE_COUNT; ++i){
             if(vld_in[i].read())
             {
@@ -200,14 +226,26 @@ void Controller::sink()
                     wait();
                 } while(!vld_in[i].read());
                 ready_out[i].write(false);
-                working_drones_count--;
                 Pos new_pos = drones_positions[i];
+                if(new_pos.row == -1 && new_pos.col == -1)
+                {
+                    came_back_drones_cout++;
+                    continue;
+                }
+                working_drones_count--;
                 expand_path(new_pos);
                 map[new_pos.row][new_pos.col] = 3;
                 cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << "Controller" << "): " << "Destination [(" << new_pos.row << ", " << new_pos.col << ")] was discovered by [drone_" << i << "]" << endl;
-                print_maps();
+                print_map();
                 print_free_positions();
             }
         }    
     }
+}
+
+void Controller::guard()
+{
+    wait(999999999);
+    cout << "Simulation stopped by guard" << endl;
+    sc_stop();
 }

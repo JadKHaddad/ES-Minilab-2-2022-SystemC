@@ -15,7 +15,7 @@ int sc_main(int argc, char* argv[])
   sc_signal<bool> vld_signals[DRONE_COUNT];
   sc_signal<bool> ready_signals_o[DRONE_COUNT];
   sc_signal<bool> vld_signals_o[DRONE_COUNT];
-  sc_signal<sc_uint<16>> travel_dist_signals[DRONE_COUNT];
+  sc_signal<sc_int<16>> travel_dist_signals[DRONE_COUNT];
   Drone *drones[DRONE_COUNT];
 
   for(int i = 0; i < DRONE_COUNT; ++i){

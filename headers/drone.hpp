@@ -6,7 +6,7 @@
 SC_MODULE( Drone )
 {
   sc_in<bool> clk;
-  sc_in <sc_uint<16>> travel_dist_in;
+  sc_in <sc_int<16>> travel_dist_in;
 
   sc_out<bool> ready_out;
   sc_out<bool> vld_out;
