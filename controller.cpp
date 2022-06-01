@@ -150,6 +150,14 @@ void Controller::source()
     while(true)
     {
         wait();
+        if(batt_in_sec <= sc_time_stamp().to_seconds())
+        {
+            cout << endl << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << "Controller" << "): Battery died" << endl;
+            print_map();
+            cout << endl;
+            print_real_world_map();
+            sc_stop();
+        }
         if(index >= index_limit)
         {
             if(working_drones_count == 0)

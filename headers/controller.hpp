@@ -28,7 +28,8 @@ SC_MODULE( Controller )
   sc_uint<16> came_back_drones_cout = 0;
   sc_uint<16> index = 0;
   sc_uint<16> index_limit = 1;
-  
+  sc_uint<16> batt_in_sec = 20 * 60; //20 mins
+
   Pos drones_positions[DRONE_COUNT];
   Pos free_positions[N*N];
 
