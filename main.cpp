@@ -16,10 +16,6 @@ int sc_main(int argc, char* argv[])
   sc_signal<bool> ready_signals_o[DRONE_COUNT];
   sc_signal<bool> vld_signals_o[DRONE_COUNT];
   sc_signal<sc_uint<16>> travel_dist_signals[DRONE_COUNT];
-  sc_signal<sc_uint<16>> drone_rows_signals[DRONE_COUNT];
-  sc_signal<sc_uint<16>> drone_cols_signals[DRONE_COUNT];
-  sc_signal<sc_uint<16>> dest_rows_signals[DRONE_COUNT];
-  sc_signal<sc_uint<16>> dest_cols_signals[DRONE_COUNT];
   Drone *drones[DRONE_COUNT];
 
   for(int i = 0; i < DRONE_COUNT; ++i){
@@ -42,41 +38,13 @@ int sc_main(int argc, char* argv[])
 
     controller.vld_out[i](vld_signals_o[i]);
     drones[i]->vld_in(vld_signals_o[i]);
-
-    controller.drone_rows_in[i](drone_rows_signals[i]);
-    drones[i]->current_pos_row_out(drone_rows_signals[i]);
-
-    controller.drone_cols_in[i](drone_cols_signals[i]);
-    drones[i]->current_pos_col_out(drone_cols_signals[i]);
-
-    controller.dest_rows_out[i](dest_rows_signals[i]);
-    drones[i]->current_dest_row_in(dest_rows_signals[i]);
-
-    controller.dest_cols_out[i](dest_cols_signals[i]);
-    drones[i]->current_dest_col_in(dest_cols_signals[i]);
   }
-
   sc_start();
-
-  // int grid[N][N] = {
-  // {   00,	00,	00,	00,	00,	00,	00,	00,	00,	00  },
-  // {   00,	00,	00,	00,	00,	00,	00,	00,	00,	00  },
-  // {   00,	00,	00,	00,	00,	00,	00,	00,	00,	00  },
-  // {   00,	00,	00,	00,	00,	00,	00,	00,	00,	00  },
-  // {   00,	00,	00,	00,	00,	00,	00,	00,	00,	00  },
-  // {   00,	00,	00,	00,	00,	00,	00,	00,	00,	00  },
-  // {   00,	00,	00,	00,	00,	00,	00,	00,	00,	00  },
-  // {   00,	00,	00,	00,	00,	00,	00,	00,	00,	00  },
-  // {   00,	00,	00,	00,	00,	00,	00,	00,	00,	00  },
-  // {   00,	00,	00,	00,	00,	00,	00,	00,	00,	00  }
-  // };
-
-  //int i = min_distance(grid, Pos(0,0), Pos(0,9));
-	//cout << i << endl;
 
   cout << "Freeing Memory" << endl;
   for(int i = 0; i < DRONE_COUNT; ++i){
     delete(drones[i]);
   }
+  
   return 0;
 }

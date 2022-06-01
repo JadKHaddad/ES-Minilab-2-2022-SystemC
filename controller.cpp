@@ -1,20 +1,35 @@
 #include "controller.hpp"
 
-using namespace std;
-
 void Controller::print_maps()
 {
-    
+    cout << endl << "Map" << endl;
     for(int i = 0; i < N; ++i)
     {
         for(int j = 0; j < N; ++j)
         {
-            cout << map[i][j] << ", ";
+            int num =  map[i][j];
+            std::string spacing= "\t\t";
+            if (num == 99 || num == -1)
+            {
+                spacing = "\t";
+            }
+            cout << "[" << num << "]" << spacing;
         }
-        cout << "\t\t\t\t";
+        cout << endl;
+    }
+    cout << endl;
+    cout << "Real world Map" << endl;
+    for(int i = 0; i < N; ++i)
+    {
         for(int j = 0; j < N; ++j)
         {
-            cout << real_world_map[i][j] << ", ";
+            int num = real_world_map[i][j];
+            std::string spacing= "\t\t";
+            if (num == 99 || num == -1)
+            {
+                spacing = "\t";
+            }
+            cout << "[" << num << "]" << spacing;
         }
         cout << endl;
     }
@@ -22,20 +37,20 @@ void Controller::print_maps()
 
 void Controller::print_free_positions()
 {   
+    cout << endl << "Next free positions: ";
     int i = index;
     while(i < index_limit)
     {
-        cout << "(" << free_positions[i].row << ", " << free_positions[i].col << ") | ";
+        cout << "[(" << free_positions[i].row << ", " << free_positions[i].col << ")] ";
         i++; 
     }
-    cout << endl;
+    cout << endl << endl;
 }
 
 IndexDist Controller::get_index_and_dist_of_a_free_drone(Pos dest)
 {
     int drone_index = -1;
     int min_dist = -1;
-
     for(int i = 0; i < DRONE_COUNT; ++i)
         {
             if(ready_in[i].read())
@@ -44,7 +59,7 @@ IndexDist Controller::get_index_and_dist_of_a_free_drone(Pos dest)
                 int dist = min_distance(map, source, dest);
                 if(dist > -1)
                 {
-                    if(min_dist == -1 || dist <= min_dist)
+                    if(min_dist == -1 || dist < min_dist)
                     {
                         min_dist = dist;
                         drone_index = i;
@@ -133,7 +148,8 @@ void Controller::source()
         if(index >= index_limit)
         {
             if(working_drones_count == 0)
-            {
+            {   
+                cout << "Mission complete" << endl;
                 print_maps();
                 sc_stop();
             }
@@ -149,8 +165,6 @@ void Controller::source()
             
             vld_out[drone_index].write(true);
             travel_dist_out[drone_index].write(dist);
-            dest_rows_out[drone_index].write(dest.row);
-            dest_cols_out[drone_index].write(dest.col);
             //mark dest "to be discovered"
             working_drones_count++;
             Pos drone_current_pos = drones_positions[drone_index];
@@ -165,7 +179,7 @@ void Controller::source()
             } while (!ready_in[drone_index].read());
             vld_out[drone_index].write(false);
             index++;
-            cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << "Controller" << "):" << "Dest (" << dest.row << ", " << dest.col << ") to drone: " << drone_index << " with dist: " << dist << endl;
+            cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << "Controller" << "): " << "Destination [(" << dest.row << ", " << dest.col << ")] was sent to [drone_" << drone_index << "] with distance: [" << dist << "]" << endl;
         }      
     }
 }
@@ -186,14 +200,13 @@ void Controller::sink()
                     wait();
                 } while(!vld_in[i].read());
                 ready_out[i].write(false);
-                cout << "drone: " << i << " finished" << endl;
                 working_drones_count--;
                 Pos new_pos = drones_positions[i];
                 expand_path(new_pos);
                 map[new_pos.row][new_pos.col] = 3;
+                cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << "Controller" << "): " << "Destination [(" << new_pos.row << ", " << new_pos.col << ")] was discovered by [drone_" << i << "]" << endl;
                 print_maps();
                 print_free_positions();
-
             }
         }    
     }

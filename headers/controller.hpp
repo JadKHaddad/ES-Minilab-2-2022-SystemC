@@ -39,21 +39,15 @@ SC_MODULE( Controller )
   sc_out<bool> ready_out[DRONE_COUNT];
   sc_out<bool> vld_out[DRONE_COUNT];
 
-  sc_in<sc_uint<16>> drone_rows_in[DRONE_COUNT];
-  sc_in<sc_uint<16>> drone_cols_in[DRONE_COUNT];
-
-  sc_out<sc_uint<16>> dest_rows_out[DRONE_COUNT];
-  sc_out<sc_uint<16>> dest_cols_out[DRONE_COUNT];
-
   sc_uint<16> k = 1;
 
   //methods
   void source();
   void sink();
-  IndexDist get_index_and_dist_of_a_free_drone(Pos dest);
   void expand_path(Pos new_pos);
   void print_maps();
   void print_free_positions();
+  IndexDist get_index_and_dist_of_a_free_drone(Pos dest);
 
   SC_CTOR( Controller )
   {
