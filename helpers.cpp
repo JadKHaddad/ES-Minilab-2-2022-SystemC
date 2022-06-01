@@ -33,7 +33,7 @@ int min_distance(int grid[N][N], Pos from, Pos to)
 				visited[i][j] = true;
 				continue;
 			}
-			visited[i][j] = false; //1 can visit is discovered
+			visited[i][j] = false; //1 can visit is discovered or -1 can visit to be discovered
 		}
 	}
 

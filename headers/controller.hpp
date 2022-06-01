@@ -24,8 +24,11 @@ SC_MODULE( Controller )
   int map[N][N];
 
   sc_in<bool> clk;
+  sc_uint<16> working_drones_count = 0;
   sc_uint<16> index = 0;
-  sc_uint<16> free_positions_limit = 1;
+  sc_uint<16> index_limit = 1;
+  
+  Pos drones_positions[DRONE_COUNT];
   Pos free_positions[N*N];
 
   sc_out <sc_uint<16>> travel_dist_out[DRONE_COUNT];
@@ -48,10 +51,16 @@ SC_MODULE( Controller )
   void source();
   void sink();
   IndexDist get_index_and_dist_of_a_free_drone(Pos dest);
+  void expand_path(Pos new_pos);
   void print_maps();
+  void print_free_positions();
 
   SC_CTOR( Controller )
   {
+    for(int i = 0; i < DRONE_COUNT; ++i)
+    {
+      drones_positions[i] = Pos();
+    }
     for(int i = 0; i < N; ++i)
     {
       for(int j = 0; j < N; ++j)
