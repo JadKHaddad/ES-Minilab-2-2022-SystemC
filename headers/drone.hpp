@@ -23,5 +23,4 @@ SC_MODULE( Drone )
   }
 };
 
-
 #endif

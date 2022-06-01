@@ -1,6 +1,6 @@
 #ifndef CONST
 #define CONST
 
-#define N 10
-#define DRONE_COUNT 5
+#define N 20
+#define DRONE_COUNT 10
 #endif

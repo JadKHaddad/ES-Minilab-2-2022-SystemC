@@ -5,7 +5,6 @@
 #include "const.hpp"
 using namespace std;
 
-
 // QItem for current location and distance
 // from source location
 class QItem {
@@ -41,7 +40,5 @@ public:
 };
 
 int min_distance(int grid[N][N], Pos from, Pos to);
-
-void print_(std::string s);
 
 #endif

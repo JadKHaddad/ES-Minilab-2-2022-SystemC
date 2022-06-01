@@ -1,7 +1,6 @@
 #include <systemc.h>
 #include "drone.hpp"
 
-
 void Drone::main()
 {   
     const char* name = sc_core::sc_get_current_process_b()->get_parent_object()->basename();
