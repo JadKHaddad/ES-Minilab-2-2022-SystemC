@@ -62,7 +62,8 @@ IndexDist Controller::get_index_and_dist_of_a_free_drone(Pos dest)
                 int dist = min_distance(map, source, dest);
                 if(dist > -1)
                 {
-                    if(min_dist == -1 || dist < min_dist)
+                    //if(minDist == -1 && dist ~= -1) || (minDist ~= -1 && dist ~= -1 && dist < minDist)
+                    if((min_dist == -1 && dist != -1) || (min_dist != -1 && dist != -1 && dist < min_dist))
                     {
                         min_dist = dist;
                         drone_index = i;
