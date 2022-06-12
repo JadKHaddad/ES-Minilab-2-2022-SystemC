@@ -62,7 +62,6 @@ IndexDist Controller::get_index_and_dist_of_a_free_drone(Pos dest)
                 int dist = min_distance(map, source, dest);
                 if(dist > -1)
                 {
-                    //if(minDist == -1 && dist ~= -1) || (minDist ~= -1 && dist ~= -1 && dist < minDist)
                     if((min_dist == -1 && dist != -1) || (min_dist != -1 && dist != -1 && dist < min_dist))
                     {
                         min_dist = dist;
@@ -189,7 +188,6 @@ void Controller::source()
         IndexDist index_dist = get_index_and_dist_of_a_free_drone(dest);
         int drone_index = index_dist.index;
         int dist = index_dist.dist;
-        //cout << "drone index: " << drone_index << " dist: " << dist << endl;
         if (drone_index > -1)
         {   
             
@@ -225,6 +223,7 @@ void Controller::sink()
         if(came_back_drones_cout == DRONE_COUNT)
         {
             cout << "[" << sc_time_stamp() << "/" << sc_delta_count() << "](" << "Controller" << "): All drones came back" << endl;
+            print_map();
             sc_stop();
         }
         for(int i = 0; i< DRONE_COUNT; ++i){
