@@ -1,0 +1,2006 @@
+Real world Map
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[99]	[99]	[99]	[99]	[99]	[0]		[0]		[99]	[99]	[99]	
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+[2 ms/7](Controller): Destination [(0, 0)] was sent to [drone_0] with distance: [0]
+[2 ms/7](drone_0): Travelling
+[2 ms/7](drone_0): Discovering
+[5002 ms/15007](drone_0): Finished discovering
+[5002 ms/15007](drone_0): Waiting for controller
+[5004 ms/15013](Controller): Destination [(0, 0)] was discovered by [drone_0]
+
+Map
+[3]		[-1]	[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[-1]	[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(1, 0)] [(0, 1)] 
+
+[5005 ms/15016](Controller): Destination [(1, 0)] was sent to [drone_1] with distance: [1]
+[5005 ms/15016](drone_1): Travelling
+[5007 ms/15022](Controller): Destination [(0, 1)] was sent to [drone_0] with distance: [1]
+[5007 ms/15022](drone_0): Travelling
+[7005 ms/21016](drone_1): Discovering
+[7007 ms/21022](drone_0): Discovering
+[12005 ms/36016](drone_1): Finished discovering
+[12005 ms/36016](drone_1): Waiting for controller
+[12007 ms/36022](Controller): Destination [(1, 0)] was discovered by [drone_1]
+
+Map
+[1]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[3]		[-1]	[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[-1]	[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(2, 0)] [(1, 1)] 
+
+[12007 ms/36022](drone_0): Finished discovering
+[12007 ms/36022](drone_0): Waiting for controller
+[12009 ms/36028](Controller): Destination [(0, 1)] was discovered by [drone_0]
+
+Map
+[1]		[3]		[-1]	[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[1]		[-1]	[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[2]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(2, 0)] [(1, 1)] [(0, 2)] 
+
+[12009 ms/36028](Controller): Destination [(2, 0)] was sent to [drone_1] with distance: [1]
+[12009 ms/36028](drone_1): Travelling
+[12011 ms/36034](Controller): Destination [(1, 1)] was sent to [drone_0] with distance: [1]
+[12011 ms/36034](drone_0): Travelling
+[12013 ms/36040](Controller): Destination [(0, 2)] was sent to [drone_2] with distance: [2]
+[12013 ms/36040](drone_2): Travelling
+[14009 ms/42028](drone_1): Discovering
+[14011 ms/42034](drone_0): Discovering
+[16013 ms/48040](drone_2): Discovering
+[19009 ms/57028](drone_1): Finished discovering
+[19009 ms/57028](drone_1): Waiting for controller
+[19011 ms/57034](Controller): Destination [(2, 0)] was discovered by [drone_1]
+
+Map
+[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[1]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[3]		[-1]	[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[-1]	[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(3, 0)] [(2, 1)] 
+
+[19011 ms/57034](drone_0): Finished discovering
+[19011 ms/57034](drone_0): Waiting for controller
+[19013 ms/57040](Controller): Destination [(1, 1)] was discovered by [drone_0]
+
+Map
+[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[1]		[3]		[-1]	[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[1]		[-1]	[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[2]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(3, 0)] [(2, 1)] [(1, 2)] 
+
+[19013 ms/57040](Controller): Destination [(3, 0)] was sent to [drone_1] with distance: [1]
+[19013 ms/57040](drone_1): Travelling
+[19015 ms/57046](Controller): Destination [(2, 1)] was sent to [drone_0] with distance: [1]
+[19015 ms/57046](drone_0): Travelling
+[19017 ms/57052](Controller): Destination [(1, 2)] was sent to [drone_3] with distance: [3]
+[19017 ms/57052](drone_3): Travelling
+[21013 ms/63040](drone_1): Discovering
+[21013 ms/63040](drone_2): Finished discovering
+[21013 ms/63040](drone_2): Waiting for controller
+[21015 ms/63046](Controller): Destination [(0, 2)] was discovered by [drone_2]
+
+Map
+[1]		[1]		[3]		[-1]	[0]		[0]		[0]		[0]		[0]		[0]		
+[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[1]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[2]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(0, 3)] 
+
+[21015 ms/63046](drone_0): Discovering
+[21017 ms/63052](Controller): Destination [(0, 3)] was sent to [drone_2] with distance: [1]
+[21017 ms/63052](drone_2): Travelling
+[23017 ms/69052](drone_2): Discovering
+[25017 ms/75052](drone_3): Discovering
+[26013 ms/78040](drone_1): Finished discovering
+[26013 ms/78040](drone_1): Waiting for controller
+[26015 ms/78046](Controller): Destination [(3, 0)] was discovered by [drone_1]
+
+Map
+[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		
+[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[1]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[3]		[-1]	[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[99]	[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(3, 1)] 
+
+[26015 ms/78046](drone_0): Finished discovering
+[26015 ms/78046](drone_0): Waiting for controller
+[26017 ms/78052](Controller): Destination [(2, 1)] was discovered by [drone_0]
+
+Map
+[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		
+[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[1]		[3]		[-1]	[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[1]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[99]	[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(3, 1)] [(2, 2)] 
+
+[26017 ms/78052](Controller): Destination [(3, 1)] was sent to [drone_1] with distance: [1]
+[26017 ms/78052](drone_1): Travelling
+[26019 ms/78058](Controller): Destination [(2, 2)] was sent to [drone_0] with distance: [1]
+[26019 ms/78058](drone_0): Travelling
+[28017 ms/84052](drone_1): Discovering
+[28017 ms/84052](drone_2): Finished discovering
+[28017 ms/84052](drone_2): Waiting for controller
+[28019 ms/84058](Controller): Destination [(0, 3)] was discovered by [drone_2]
+
+Map
+[1]		[1]		[1]		[3]		[-1]	[0]		[0]		[0]		[0]		[0]		
+[1]		[1]		[2]		[-1]	[0]		[0]		[0]		[0]		[0]		[0]		
+[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[1]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[99]	[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(1, 3)] [(0, 4)] 
+
+[28019 ms/84058](drone_0): Discovering
+[28021 ms/84064](Controller): Destination [(1, 3)] was sent to [drone_2] with distance: [1]
+[28021 ms/84064](drone_2): Travelling
+[28023 ms/84070](Controller): Destination [(0, 4)] was sent to [drone_4] with distance: [4]
+[28023 ms/84070](drone_4): Travelling
+[30017 ms/90052](drone_3): Finished discovering
+[30017 ms/90052](drone_3): Waiting for controller
+[30019 ms/90058](Controller): Destination [(1, 2)] was discovered by [drone_3]
+
+Map
+[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		
+[1]		[1]		[3]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		
+[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[1]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[99]	[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: 
+
+[30021 ms/90064](drone_2): Discovering
+[33017 ms/99052](drone_1): Finished discovering
+[33017 ms/99052](drone_1): Waiting for controller
+[33019 ms/99058](Controller): Destination [(3, 1)] was discovered by [drone_1]
+
+Map
+[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		
+[1]		[1]		[3]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		
+[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[1]		[3]		[-1]	[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[99]	[99]	[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(3, 2)] 
+
+[33019 ms/99058](drone_0): Finished discovering
+[33019 ms/99058](drone_0): Waiting for controller
+[33021 ms/99064](Controller): Destination [(2, 2)] was discovered by [drone_0]
+
+Map
+[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		
+[1]		[1]		[3]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		
+[1]		[1]		[3]		[-1]	[0]		[0]		[0]		[0]		[0]		[0]		
+[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[99]	[99]	[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(3, 2)] [(2, 3)] 
+
+[33021 ms/99064](Controller): Destination [(3, 2)] was sent to [drone_1] with distance: [1]
+[33021 ms/99064](drone_1): Travelling
+[33023 ms/99070](Controller): Destination [(2, 3)] was sent to [drone_0] with distance: [1]
+[33023 ms/99070](drone_0): Travelling
+[35021 ms/105064](drone_1): Discovering
+[35021 ms/105064](drone_2): Finished discovering
+[35021 ms/105064](drone_2): Waiting for controller
+[35023 ms/105070](Controller): Destination [(1, 3)] was discovered by [drone_2]
+
+Map
+[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		
+[1]		[1]		[3]		[3]		[-1]	[0]		[0]		[0]		[0]		[0]		
+[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		
+[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[99]	[99]	[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(1, 4)] 
+
+[35023 ms/105070](drone_0): Discovering
+[35025 ms/105076](Controller): Destination [(1, 4)] was sent to [drone_2] with distance: [1]
+[35025 ms/105076](drone_2): Travelling
+[36023 ms/108070](drone_4): Discovering
+[37025 ms/111076](drone_2): Discovering
+[40021 ms/120064](drone_1): Finished discovering
+[40021 ms/120064](drone_1): Waiting for controller
+[40023 ms/120070](Controller): Destination [(3, 2)] was discovered by [drone_1]
+
+Map
+[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		
+[1]		[1]		[3]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		
+[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		
+[1]		[1]		[3]		[-1]	[0]		[0]		[0]		[0]		[0]		[0]		
+[99]	[99]	[99]	[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(3, 3)] 
+
+[40023 ms/120070](drone_0): Finished discovering
+[40023 ms/120070](drone_0): Waiting for controller
+[40025 ms/120076](Controller): Destination [(2, 3)] was discovered by [drone_0]
+
+Map
+[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		
+[1]		[1]		[3]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		
+[1]		[1]		[1]		[3]		[-1]	[0]		[0]		[0]		[0]		[0]		
+[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		
+[99]	[99]	[99]	[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(3, 3)] [(2, 4)] 
+
+[40025 ms/120076](Controller): Destination [(3, 3)] was sent to [drone_1] with distance: [1]
+[40025 ms/120076](drone_1): Travelling
+[40027 ms/120082](Controller): Destination [(2, 4)] was sent to [drone_0] with distance: [1]
+[40027 ms/120082](drone_0): Travelling
+[41023 ms/123070](drone_4): Finished discovering
+[41023 ms/123070](drone_4): Waiting for controller
+[41025 ms/123076](Controller): Destination [(0, 4)] was discovered by [drone_4]
+
+Map
+[1]		[1]		[1]		[1]		[3]		[-1]	[0]		[0]		[0]		[0]		
+[1]		[1]		[3]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		
+[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		
+[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		
+[99]	[99]	[99]	[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(0, 5)] 
+
+[41027 ms/123082](Controller): Destination [(0, 5)] was sent to [drone_4] with distance: [1]
+[41027 ms/123082](drone_4): Travelling
+[42025 ms/126076](drone_1): Discovering
+[42025 ms/126076](drone_2): Finished discovering
+[42025 ms/126076](drone_2): Waiting for controller
+[42027 ms/126082](Controller): Destination [(1, 4)] was discovered by [drone_2]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		
+[1]		[1]		[3]		[1]		[3]		[-1]	[0]		[0]		[0]		[0]		
+[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		
+[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		[0]		
+[99]	[99]	[99]	[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(1, 5)] 
+
+[42027 ms/126082](drone_0): Discovering
+[42029 ms/126088](Controller): Destination [(1, 5)] was sent to [drone_2] with distance: [1]
+[42029 ms/126088](drone_2): Travelling
+[43027 ms/129082](drone_4): Discovering
+[44029 ms/132088](drone_2): Discovering
+[47025 ms/141076](drone_1): Finished discovering
+[47025 ms/141076](drone_1): Waiting for controller
+[47027 ms/141082](Controller): Destination [(3, 3)] was discovered by [drone_1]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		
+[1]		[1]		[3]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		
+[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		
+[1]		[1]		[1]		[3]		[-1]	[0]		[0]		[0]		[0]		[0]		
+[99]	[99]	[99]	[99]	[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(3, 4)] 
+
+[47027 ms/141082](drone_0): Finished discovering
+[47027 ms/141082](drone_0): Waiting for controller
+[47029 ms/141088](Controller): Destination [(2, 4)] was discovered by [drone_0]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		
+[1]		[1]		[3]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		
+[1]		[1]		[1]		[1]		[3]		[-1]	[0]		[0]		[0]		[0]		
+[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		
+[99]	[99]	[99]	[99]	[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(3, 4)] [(2, 5)] 
+
+[47029 ms/141088](Controller): Destination [(3, 4)] was sent to [drone_1] with distance: [1]
+[47029 ms/141088](drone_1): Travelling
+[47031 ms/141094](Controller): Destination [(2, 5)] was sent to [drone_0] with distance: [1]
+[47031 ms/141094](drone_0): Travelling
+[48027 ms/144082](drone_4): Finished discovering
+[48027 ms/144082](drone_4): Waiting for controller
+[48029 ms/144088](Controller): Destination [(0, 5)] was discovered by [drone_4]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[3]		[-1]	[0]		[0]		[0]		
+[1]		[1]		[3]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		
+[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		
+[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		
+[99]	[99]	[99]	[99]	[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(0, 6)] 
+
+[48031 ms/144094](Controller): Destination [(0, 6)] was sent to [drone_4] with distance: [1]
+[48031 ms/144094](drone_4): Travelling
+[49029 ms/147088](drone_1): Discovering
+[49029 ms/147088](drone_2): Finished discovering
+[49029 ms/147088](drone_2): Waiting for controller
+[49031 ms/147094](Controller): Destination [(1, 5)] was discovered by [drone_2]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		
+[1]		[1]		[3]		[1]		[1]		[3]		[-1]	[0]		[0]		[0]		
+[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		
+[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		[0]		
+[99]	[99]	[99]	[99]	[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(1, 6)] 
+
+[49031 ms/147094](drone_0): Discovering
+[49033 ms/147100](Controller): Destination [(1, 6)] was sent to [drone_2] with distance: [1]
+[49033 ms/147100](drone_2): Travelling
+[50031 ms/150094](drone_4): Discovering
+[51033 ms/153100](drone_2): Discovering
+[54029 ms/162088](drone_1): Finished discovering
+[54029 ms/162088](drone_1): Waiting for controller
+[54031 ms/162094](Controller): Destination [(3, 4)] was discovered by [drone_1]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		
+[1]		[1]		[3]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		
+[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		
+[1]		[1]		[1]		[1]		[3]		[-1]	[0]		[0]		[0]		[0]		
+[99]	[99]	[99]	[99]	[99]	[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(3, 5)] 
+
+[54031 ms/162094](drone_0): Finished discovering
+[54031 ms/162094](drone_0): Waiting for controller
+[54033 ms/162100](Controller): Destination [(2, 5)] was discovered by [drone_0]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		
+[1]		[1]		[3]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		
+[1]		[1]		[1]		[1]		[1]		[3]		[-1]	[0]		[0]		[0]		
+[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		
+[99]	[99]	[99]	[99]	[99]	[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(3, 5)] [(2, 6)] 
+
+[54033 ms/162100](Controller): Destination [(3, 5)] was sent to [drone_1] with distance: [1]
+[54033 ms/162100](drone_1): Travelling
+[54035 ms/162106](Controller): Destination [(2, 6)] was sent to [drone_0] with distance: [1]
+[54035 ms/162106](drone_0): Travelling
+[55031 ms/165094](drone_4): Finished discovering
+[55031 ms/165094](drone_4): Waiting for controller
+[55033 ms/165100](Controller): Destination [(0, 6)] was discovered by [drone_4]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[3]		[-1]	[0]		[0]		
+[1]		[1]		[3]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		
+[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		
+[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		
+[99]	[99]	[99]	[99]	[99]	[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(0, 7)] 
+
+[55035 ms/165106](Controller): Destination [(0, 7)] was sent to [drone_4] with distance: [1]
+[55035 ms/165106](drone_4): Travelling
+[56033 ms/168100](drone_1): Discovering
+[56033 ms/168100](drone_2): Finished discovering
+[56033 ms/168100](drone_2): Waiting for controller
+[56035 ms/168106](Controller): Destination [(1, 6)] was discovered by [drone_2]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[1]		[1]		[3]		[1]		[1]		[1]		[3]		[-1]	[0]		[0]		
+[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		
+[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		[0]		
+[99]	[99]	[99]	[99]	[99]	[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(1, 7)] 
+
+[56035 ms/168106](drone_0): Discovering
+[56037 ms/168112](Controller): Destination [(1, 7)] was sent to [drone_2] with distance: [1]
+[56037 ms/168112](drone_2): Travelling
+[57035 ms/171106](drone_4): Discovering
+[58037 ms/174112](drone_2): Discovering
+[61033 ms/183100](drone_1): Finished discovering
+[61033 ms/183100](drone_1): Waiting for controller
+[61035 ms/183106](Controller): Destination [(3, 5)] was discovered by [drone_1]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[1]		[1]		[3]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		
+[1]		[1]		[1]		[1]		[1]		[3]		[-1]	[0]		[0]		[0]		
+[99]	[99]	[99]	[99]	[99]	[-1]	[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(4, 5)] [(3, 6)] 
+
+[61035 ms/183106](drone_0): Finished discovering
+[61035 ms/183106](drone_0): Waiting for controller
+[61037 ms/183112](Controller): Destination [(2, 6)] was discovered by [drone_0]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[1]		[1]		[3]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[1]		[1]		[1]		[1]		[1]		[1]		[3]		[-1]	[0]		[0]		
+[1]		[1]		[1]		[1]		[1]		[1]		[-1]	[0]		[0]		[0]		
+[99]	[99]	[99]	[99]	[99]	[2]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(4, 5)] [(3, 6)] [(2, 7)] 
+
+[61037 ms/183112](Controller): Destination [(4, 5)] was sent to [drone_1] with distance: [1]
+[61037 ms/183112](drone_1): Travelling
+[61039 ms/183118](Controller): Destination [(3, 6)] was sent to [drone_0] with distance: [1]
+[61039 ms/183118](drone_0): Travelling
+[61041 ms/183124](Controller): Destination [(2, 7)] was sent to [drone_3] with distance: [6]
+[61041 ms/183124](drone_3): Travelling
+[62035 ms/186106](drone_4): Finished discovering
+[62035 ms/186106](drone_4): Waiting for controller
+[62037 ms/186112](Controller): Destination [(0, 7)] was discovered by [drone_4]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		[-1]	[0]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		
+[99]	[99]	[99]	[99]	[99]	[2]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(0, 8)] 
+
+[62039 ms/186118](Controller): Destination [(0, 8)] was sent to [drone_4] with distance: [1]
+[62039 ms/186118](drone_4): Travelling
+[63037 ms/189112](drone_1): Discovering
+[63037 ms/189112](drone_2): Finished discovering
+[63037 ms/189112](drone_2): Waiting for controller
+[63039 ms/189118](Controller): Destination [(1, 7)] was discovered by [drone_2]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		[-1]	[0]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		
+[99]	[99]	[99]	[99]	[99]	[2]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(1, 8)] 
+
+[63039 ms/189118](drone_0): Discovering
+[63041 ms/189124](Controller): Destination [(1, 8)] was sent to [drone_2] with distance: [1]
+[63041 ms/189124](drone_2): Travelling
+[64039 ms/192118](drone_4): Discovering
+[65041 ms/195124](drone_2): Discovering
+[68037 ms/204112](drone_1): Finished discovering
+[68037 ms/204112](drone_1): Waiting for controller
+[68039 ms/204118](Controller): Destination [(4, 5)] was discovered by [drone_1]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		
+[99]	[99]	[99]	[99]	[99]	[3]		[-1]	[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[-1]	[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(5, 5)] [(4, 6)] 
+
+[68039 ms/204118](drone_0): Finished discovering
+[68039 ms/204118](drone_0): Waiting for controller
+[68041 ms/204124](Controller): Destination [(3, 6)] was discovered by [drone_0]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[1]		[1]		[1]		[1]		[1]		[1]		[3]		[-1]	[0]		[0]		
+[99]	[99]	[99]	[99]	[99]	[1]		[-1]	[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[2]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(5, 5)] [(4, 6)] [(3, 7)] 
+
+[68041 ms/204124](Controller): Destination [(5, 5)] was sent to [drone_1] with distance: [1]
+[68041 ms/204124](drone_1): Travelling
+[68043 ms/204130](Controller): Destination [(4, 6)] was sent to [drone_0] with distance: [1]
+[68043 ms/204130](drone_0): Travelling
+[68045 ms/204136](Controller): Destination [(3, 7)] was sent to [drone_5] with distance: [10]
+[68045 ms/204136](drone_5): Travelling
+[69039 ms/207118](drone_4): Finished discovering
+[69039 ms/207118](drone_4): Waiting for controller
+[69041 ms/207124](Controller): Destination [(0, 8)] was discovered by [drone_4]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		[-1]	
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[99]	[99]	[99]	[99]	[99]	[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[2]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(0, 9)] 
+
+[69043 ms/207130](Controller): Destination [(0, 9)] was sent to [drone_4] with distance: [1]
+[69043 ms/207130](drone_4): Travelling
+[70041 ms/210124](drone_1): Discovering
+[70041 ms/210124](drone_2): Finished discovering
+[70041 ms/210124](drone_2): Waiting for controller
+[70043 ms/210130](Controller): Destination [(1, 8)] was discovered by [drone_2]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		[-1]	
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[-1]	[0]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[99]	[99]	[99]	[99]	[99]	[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[2]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(2, 8)] [(1, 9)] 
+
+[70043 ms/210130](drone_0): Discovering
+[70045 ms/210136](Controller): Destination [(2, 8)] was sent to [drone_2] with distance: [1]
+[70045 ms/210136](drone_2): Travelling
+[70047 ms/210142](Controller): Destination [(1, 9)] was sent to [drone_6] with distance: [10]
+[70047 ms/210142](drone_6): Travelling
+[71043 ms/213130](drone_4): Discovering
+[72045 ms/216136](drone_2): Discovering
+[73041 ms/219124](drone_3): Discovering
+[75041 ms/225124](drone_1): Finished discovering
+[75041 ms/225124](drone_1): Waiting for controller
+[75043 ms/225130](Controller): Destination [(5, 5)] was discovered by [drone_1]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[2]		[0]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[99]	[99]	[99]	[99]	[99]	[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[-1]	[3]		[-1]	[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[-1]	[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(6, 5)] [(5, 4)] [(5, 6)] 
+
+[75043 ms/225130](drone_0): Finished discovering
+[75043 ms/225130](drone_0): Waiting for controller
+[75045 ms/225136](Controller): Destination [(4, 6)] was discovered by [drone_0]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[2]		[0]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[99]	[99]	[99]	[99]	[99]	[1]		[3]		[99]	[0]		[0]		
+[0]		[0]		[0]		[0]		[-1]	[1]		[-1]	[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[2]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(6, 5)] [(5, 4)] [(5, 6)] 
+
+[75045 ms/225136](Controller): Destination [(6, 5)] was sent to [drone_1] with distance: [1]
+[75045 ms/225136](drone_1): Travelling
+[75047 ms/225142](Controller): Destination [(5, 4)] was sent to [drone_0] with distance: [3]
+[75047 ms/225142](drone_0): Travelling
+[75049 ms/225148](Controller): Destination [(5, 6)] was sent to [drone_7] with distance: [11]
+[75049 ms/225148](drone_7): Travelling
+[76043 ms/228130](drone_4): Finished discovering
+[76043 ms/228130](drone_4): Waiting for controller
+[76045 ms/228136](Controller): Destination [(0, 9)] was discovered by [drone_4]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[2]		[0]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[0]		[0]		
+[0]		[0]		[0]		[0]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[2]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: 
+
+[77045 ms/231136](drone_1): Discovering
+[77045 ms/231136](drone_2): Finished discovering
+[77045 ms/231136](drone_2): Waiting for controller
+[77047 ms/231142](Controller): Destination [(2, 8)] was discovered by [drone_2]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[3]		[-1]	
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[-1]	[0]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[0]		[0]		
+[0]		[0]		[0]		[0]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[2]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(3, 8)] [(2, 9)] 
+
+[77049 ms/231148](Controller): Destination [(3, 8)] was sent to [drone_2] with distance: [1]
+[77049 ms/231148](drone_2): Travelling
+[77051 ms/231154](Controller): Destination [(2, 9)] was sent to [drone_4] with distance: [4]
+[77051 ms/231154](drone_4): Travelling
+[78041 ms/234124](drone_3): Finished discovering
+[78041 ms/234124](drone_3): Waiting for controller
+[78043 ms/234130](Controller): Destination [(2, 7)] was discovered by [drone_3]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		[1]		[2]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[2]		[0]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[0]		[0]		
+[0]		[0]		[0]		[0]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[2]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: 
+
+[79049 ms/237148](drone_2): Discovering
+[81047 ms/243142](drone_0): Discovering
+[82045 ms/246136](drone_1): Finished discovering
+[82045 ms/246136](drone_1): Waiting for controller
+[82047 ms/246142](Controller): Destination [(6, 5)] was discovered by [drone_1]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		[1]		[2]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[2]		[0]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[0]		[0]		
+[0]		[0]		[0]		[0]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[-1]	[3]		[-1]	[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[-1]	[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(7, 5)] [(6, 4)] [(6, 6)] 
+
+[82049 ms/246148](Controller): Destination [(7, 5)] was sent to [drone_1] with distance: [1]
+[82049 ms/246148](drone_1): Travelling
+[82051 ms/246154](Controller): Destination [(6, 4)] was sent to [drone_3] with distance: [7]
+[82051 ms/246154](drone_3): Travelling
+[82053 ms/246160](Controller): Destination [(6, 6)] was sent to [drone_8] with distance: [12]
+[82053 ms/246160](drone_8): Travelling
+[84049 ms/252148](drone_1): Discovering
+[84049 ms/252148](drone_2): Finished discovering
+[84049 ms/252148](drone_2): Waiting for controller
+[84051 ms/252154](Controller): Destination [(3, 8)] was discovered by [drone_2]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[3]		[-1]	
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[0]		
+[0]		[0]		[0]		[0]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[2]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(3, 9)] 
+
+[84053 ms/252160](Controller): Destination [(3, 9)] was sent to [drone_2] with distance: [1]
+[84053 ms/252160](drone_2): Travelling
+[85051 ms/255154](drone_4): Discovering
+[86047 ms/258142](drone_0): Finished discovering
+[86047 ms/258142](drone_0): Waiting for controller
+[86049 ms/258148](Controller): Destination [(5, 4)] was discovered by [drone_0]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[1]		[2]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[0]		
+[0]		[0]		[0]		[-1]	[3]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[2]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(5, 3)] 
+
+[86051 ms/258154](Controller): Destination [(5, 3)] was sent to [drone_0] with distance: [1]
+[86051 ms/258154](drone_0): Travelling
+[86053 ms/258160](drone_2): Discovering
+[88045 ms/264136](drone_5): Discovering
+[88051 ms/264154](drone_0): Discovering
+[89049 ms/267148](drone_1): Finished discovering
+[89049 ms/267148](drone_1): Waiting for controller
+[89051 ms/267154](Controller): Destination [(7, 5)] was discovered by [drone_1]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[1]		[2]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[0]		
+[0]		[0]		[0]		[2]		[1]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[-1]	[3]		[-1]	[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[-1]	[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(8, 5)] [(7, 4)] [(7, 6)] 
+
+[89053 ms/267160](Controller): Destination [(8, 5)] was sent to [drone_1] with distance: [1]
+[89053 ms/267160](drone_1): Travelling
+[89055 ms/267166](Controller): Destination [(7, 4)] was sent to [drone_9] with distance: [13]
+[89055 ms/267166](drone_9): Travelling
+[90047 ms/270142](drone_6): Discovering
+[90051 ms/270154](drone_4): Finished discovering
+[90051 ms/270154](drone_4): Waiting for controller
+[90053 ms/270160](Controller): Destination [(2, 9)] was discovered by [drone_4]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[1]		[2]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[0]		
+[0]		[0]		[0]		[2]		[1]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[2]		[1]		[-1]	[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[2]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(7, 6)] 
+
+[90055 ms/270166](Controller): Destination [(7, 6)] was sent to [drone_4] with distance: [10]
+[90055 ms/270166](drone_4): Travelling
+[91053 ms/273160](drone_1): Discovering
+[91053 ms/273160](drone_2): Finished discovering
+[91053 ms/273160](drone_2): Waiting for controller
+[91055 ms/273166](Controller): Destination [(3, 9)] was discovered by [drone_2]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[1]		[3]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[0]		[0]		[0]		[2]		[1]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[2]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: 
+
+[93045 ms/279136](drone_5): Finished discovering
+[93045 ms/279136](drone_5): Waiting for controller
+[93047 ms/279142](Controller): Destination [(3, 7)] was discovered by [drone_5]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		[1]		[3]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[0]		[0]		[0]		[2]		[1]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[2]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: 
+
+[93051 ms/279154](drone_0): Finished discovering
+[93051 ms/279154](drone_0): Waiting for controller
+[93053 ms/279160](Controller): Destination [(5, 3)] was discovered by [drone_0]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		[1]		[3]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[0]		[0]		[-1]	[3]		[1]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[-1]	[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[2]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(6, 3)] [(5, 2)] 
+
+[93055 ms/279166](Controller): Destination [(6, 3)] was sent to [drone_0] with distance: [1]
+[93055 ms/279166](drone_0): Travelling
+[93057 ms/279172](Controller): Destination [(5, 2)] was sent to [drone_5] with distance: [7]
+[93057 ms/279172](drone_5): Travelling
+[95047 ms/285142](drone_6): Finished discovering
+[95047 ms/285142](drone_6): Waiting for controller
+[95049 ms/285148](Controller): Destination [(1, 9)] was discovered by [drone_6]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[0]		[0]		[2]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[2]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[2]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+Next free positions: 
+
+[95055 ms/285166](drone_0): Discovering
+[96051 ms/288154](drone_3): Discovering
+[96053 ms/288160](drone_1): Finished discovering
+[96053 ms/288160](drone_1): Waiting for controller
+[96055 ms/288166](Controller): Destination [(8, 5)] was discovered by [drone_1]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[0]		[0]		[2]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[2]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[-1]	[3]		[-1]	[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[-1]	[0]		[0]		[0]		[0]		
+
+Next free positions: [(9, 5)] [(8, 4)] [(8, 6)] 
+
+[96057 ms/288172](Controller): Destination [(9, 5)] was sent to [drone_1] with distance: [1]
+[96057 ms/288172](drone_1): Travelling
+[96059 ms/288178](Controller): Destination [(8, 4)] was sent to [drone_2] with distance: [10]
+[96059 ms/288178](drone_2): Travelling
+[96061 ms/288184](Controller): Destination [(8, 6)] was sent to [drone_6] with distance: [12]
+[96061 ms/288184](drone_6): Travelling
+[97049 ms/291148](drone_7): Discovering
+[98057 ms/294172](drone_1): Discovering
+[100055 ms/300166](drone_0): Finished discovering
+[100055 ms/300166](drone_0): Waiting for controller
+[100057 ms/300172](Controller): Destination [(6, 3)] was discovered by [drone_0]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[0]		[0]		[2]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[-1]	[3]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[-1]	[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[2]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(7, 3)] [(6, 2)] 
+
+[100059 ms/300178](Controller): Destination [(7, 3)] was sent to [drone_0] with distance: [1]
+[100059 ms/300178](drone_0): Travelling
+[101051 ms/303154](drone_3): Finished discovering
+[101051 ms/303154](drone_3): Waiting for controller
+[101053 ms/303160](Controller): Destination [(6, 4)] was discovered by [drone_3]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[0]		[0]		[2]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[-1]	[1]		[3]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[2]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[2]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(6, 2)] 
+
+[101055 ms/303166](Controller): Destination [(6, 2)] was sent to [drone_3] with distance: [2]
+[101055 ms/303166](drone_3): Travelling
+[102049 ms/306148](drone_7): Finished discovering
+[102049 ms/306148](drone_7): Waiting for controller
+[102051 ms/306154](Controller): Destination [(5, 6)] was discovered by [drone_7]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[0]		[0]		[2]		[1]		[1]		[1]		[3]		[-1]	[0]		[0]		
+[0]		[0]		[2]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[2]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[2]		[0]		[0]		[0]		[0]		
+
+Next free positions: [(5, 7)] 
+
+[102053 ms/306160](Controller): Destination [(5, 7)] was sent to [drone_7] with distance: [1]
+[102053 ms/306160](drone_7): Travelling
+[102059 ms/306178](drone_0): Discovering
+[103057 ms/309172](drone_1): Finished discovering
+[103057 ms/309172](drone_1): Waiting for controller
+[103059 ms/309178](Controller): Destination [(9, 5)] was discovered by [drone_1]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[0]		[0]		[2]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[0]		[0]		[2]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[2]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[-1]	[3]		[-1]	[0]		[0]		[0]		
+
+Next free positions: [(9, 4)] [(9, 6)] 
+
+[103061 ms/309184](Controller): Destination [(9, 4)] was sent to [drone_1] with distance: [1]
+[103061 ms/309184](drone_1): Travelling
+[104053 ms/312160](drone_7): Discovering
+[105055 ms/315166](drone_3): Discovering
+[105061 ms/315184](drone_1): Discovering
+[106053 ms/318160](drone_8): Discovering
+[107057 ms/321172](drone_5): Discovering
+[107059 ms/321178](drone_0): Finished discovering
+[107059 ms/321178](drone_0): Waiting for controller
+[107061 ms/321184](Controller): Destination [(7, 3)] was discovered by [drone_0]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[0]		[0]		[2]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[0]		[0]		[2]		[1]		[1]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[-1]	[3]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[-1]	[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[2]		[1]		[-1]	[0]		[0]		[0]		
+
+Next free positions: [(9, 6)] [(8, 3)] [(7, 2)] 
+
+[107063 ms/321190](Controller): Destination [(9, 6)] was sent to [drone_0] with distance: [7]
+[107063 ms/321190](drone_0): Travelling
+[109053 ms/327160](drone_7): Finished discovering
+[109053 ms/327160](drone_7): Waiting for controller
+[109055 ms/327166](Controller): Destination [(5, 7)] was discovered by [drone_7]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[0]		[0]		[2]		[1]		[1]		[1]		[1]		[3]		[-1]	[0]		
+[0]		[0]		[2]		[1]		[1]		[1]		[2]		[-1]	[0]		[0]		
+[0]		[0]		[-1]	[1]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[-1]	[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[2]		[1]		[2]		[0]		[0]		[0]		
+
+Next free positions: [(8, 3)] [(7, 2)] [(6, 7)] [(5, 8)] 
+
+[109057 ms/327172](Controller): Destination [(8, 3)] was sent to [drone_7] with distance: [7]
+[109057 ms/327172](drone_7): Travelling
+[110055 ms/330166](drone_3): Finished discovering
+[110055 ms/330166](drone_3): Waiting for controller
+[110055 ms/330166](drone_4): Discovering
+[110057 ms/330172](Controller): Destination [(6, 2)] was discovered by [drone_3]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[0]		[0]		[2]		[1]		[1]		[1]		[1]		[1]		[-1]	[0]		
+[0]		[-1]	[3]		[1]		[1]		[1]		[2]		[-1]	[0]		[0]		
+[0]		[0]		[-1]	[1]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[2]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[2]		[1]		[2]		[0]		[0]		[0]		
+
+Next free positions: [(7, 2)] [(6, 7)] [(5, 8)] [(6, 1)] 
+
+[110059 ms/330178](Controller): Destination [(7, 2)] was sent to [drone_3] with distance: [1]
+[110059 ms/330178](drone_3): Travelling
+[110061 ms/330184](drone_1): Finished discovering
+[110061 ms/330184](drone_1): Waiting for controller
+[110063 ms/330190](Controller): Destination [(9, 4)] was discovered by [drone_1]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[0]		[0]		[2]		[1]		[1]		[1]		[1]		[1]		[-1]	[0]		
+[0]		[-1]	[1]		[1]		[1]		[1]		[2]		[-1]	[0]		[0]		
+[0]		[0]		[2]		[1]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[2]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[-1]	[3]		[1]		[2]		[0]		[0]		[0]		
+
+Next free positions: [(6, 7)] [(5, 8)] [(6, 1)] [(9, 3)] 
+
+[110065 ms/330196](Controller): Destination [(6, 7)] was sent to [drone_1] with distance: [8]
+[110065 ms/330196](drone_1): Travelling
+[111053 ms/333160](drone_8): Finished discovering
+[111053 ms/333160](drone_8): Waiting for controller
+[111055 ms/333166](Controller): Destination [(6, 6)] was discovered by [drone_8]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[0]		[0]		[2]		[1]		[1]		[1]		[1]		[1]		[-1]	[0]		
+[0]		[-1]	[1]		[1]		[1]		[1]		[3]		[2]		[0]		[0]		
+[0]		[0]		[2]		[1]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[2]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[-1]	[1]		[1]		[2]		[0]		[0]		[0]		
+
+Next free positions: [(5, 8)] [(6, 1)] [(9, 3)] 
+
+[111057 ms/333172](Controller): Destination [(5, 8)] was sent to [drone_8] with distance: [3]
+[111057 ms/333172](drone_8): Travelling
+[112057 ms/336172](drone_5): Finished discovering
+[112057 ms/336172](drone_5): Waiting for controller
+[112059 ms/336178](Controller): Destination [(5, 2)] was discovered by [drone_5]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[0]		[-1]	[3]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[0]		[-1]	[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[0]		[0]		[2]		[1]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[2]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[-1]	[1]		[1]		[2]		[0]		[0]		[0]		
+
+Next free positions: [(6, 1)] [(9, 3)] [(5, 1)] 
+
+[112059 ms/336178](drone_3): Discovering
+[112061 ms/336184](Controller): Destination [(6, 1)] was sent to [drone_5] with distance: [2]
+[112061 ms/336184](drone_5): Travelling
+[115055 ms/345166](drone_4): Finished discovering
+[115055 ms/345166](drone_4): Waiting for controller
+[115055 ms/345166](drone_9): Discovering
+[115057 ms/345172](Controller): Destination [(7, 6)] was discovered by [drone_4]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[0]		[-1]	[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[0]		[2]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[0]		[0]		[2]		[1]		[2]		[1]		[3]		[-1]	[0]		[0]		
+[0]		[0]		[0]		[2]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[-1]	[1]		[1]		[2]		[0]		[0]		[0]		
+
+Next free positions: [(9, 3)] [(5, 1)] [(7, 7)] 
+
+[115059 ms/345178](Controller): Destination [(9, 3)] was sent to [drone_4] with distance: [5]
+[115059 ms/345178](drone_4): Travelling
+[116059 ms/348178](drone_2): Discovering
+[116061 ms/348184](drone_5): Discovering
+[117057 ms/351172](drone_8): Discovering
+[117059 ms/351178](drone_3): Finished discovering
+[117059 ms/351178](drone_3): Waiting for controller
+[117061 ms/351184](Controller): Destination [(7, 2)] was discovered by [drone_3]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[0]		[-1]	[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[0]		[2]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[0]		[-1]	[3]		[1]		[2]		[1]		[1]		[-1]	[0]		[0]		
+[0]		[0]		[-1]	[2]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[2]		[1]		[1]		[2]		[0]		[0]		[0]		
+
+Next free positions: [(5, 1)] [(7, 7)] [(8, 2)] [(7, 1)] 
+
+[117063 ms/351190](Controller): Destination [(5, 1)] was sent to [drone_3] with distance: [3]
+[117063 ms/351190](drone_3): Travelling
+[120055 ms/360166](drone_9): Finished discovering
+[120055 ms/360166](drone_9): Waiting for controller
+[120057 ms/360172](Controller): Destination [(7, 4)] was discovered by [drone_9]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[0]		[2]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[0]		[2]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[0]		[-1]	[1]		[1]		[3]		[1]		[1]		[-1]	[0]		[0]		
+[0]		[0]		[-1]	[2]		[2]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[2]		[1]		[1]		[2]		[0]		[0]		[0]		
+
+Next free positions: [(7, 7)] [(8, 2)] [(7, 1)] 
+
+[120059 ms/360178](Controller): Destination [(7, 7)] was sent to [drone_9] with distance: [3]
+[120059 ms/360178](drone_9): Travelling
+[120061 ms/360184](drone_6): Discovering
+[121059 ms/363178](drone_2): Finished discovering
+[121059 ms/363178](drone_2): Waiting for controller
+[121061 ms/363184](Controller): Destination [(8, 4)] was discovered by [drone_2]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[0]		[2]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[0]		[2]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[0]		[-1]	[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[0]		[0]		[-1]	[2]		[3]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[2]		[1]		[1]		[2]		[0]		[0]		[0]		
+
+Next free positions: [(8, 2)] [(7, 1)] 
+
+[121061 ms/363184](drone_5): Finished discovering
+[121061 ms/363184](drone_5): Waiting for controller
+[121063 ms/363190](Controller): Destination [(6, 1)] was discovered by [drone_5]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[0]		[2]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[-1]	[3]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[0]		[-1]	[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[0]		[0]		[2]		[2]		[1]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[2]		[1]		[1]		[2]		[0]		[0]		[0]		
+
+Next free positions: [(8, 2)] [(7, 1)] [(6, 0)] 
+
+[121063 ms/363190](Controller): Destination [(8, 2)] was sent to [drone_2] with distance: [4]
+[121063 ms/363190](drone_2): Travelling
+[121063 ms/363190](drone_0): Discovering
+[121065 ms/363196](Controller): Destination [(7, 1)] was sent to [drone_5] with distance: [1]
+[121065 ms/363196](drone_5): Travelling
+[122057 ms/366172](drone_8): Finished discovering
+[122057 ms/366172](drone_8): Waiting for controller
+[122059 ms/366178](Controller): Destination [(5, 8)] was discovered by [drone_8]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[0]		[2]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		[-1]	
+[-1]	[1]		[1]		[1]		[1]		[1]		[1]		[2]		[-1]	[0]		
+[0]		[2]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[0]		[0]		[2]		[2]		[1]		[1]		[2]		[0]		[0]		[0]		
+[0]		[0]		[0]		[2]		[1]		[1]		[2]		[0]		[0]		[0]		
+
+Next free positions: [(6, 0)] [(6, 8)] [(5, 9)] 
+
+[122061 ms/366184](Controller): Destination [(6, 0)] was sent to [drone_8] with distance: [9]
+[122061 ms/366184](drone_8): Travelling
+[123057 ms/369172](drone_7): Discovering
+[123063 ms/369190](drone_3): Discovering
+[123065 ms/369196](drone_5): Discovering
+[125059 ms/375178](drone_4): Discovering
+[125061 ms/375184](drone_6): Finished discovering
+[125061 ms/375184](drone_6): Waiting for controller
+[125063 ms/375190](Controller): Destination [(8, 6)] was discovered by [drone_6]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[0]		[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[-1]	
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[-1]	[0]		
+[0]		[2]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[0]		[0]		[2]		[2]		[1]		[1]		[3]		[-1]	[0]		[0]		
+[0]		[0]		[0]		[2]		[1]		[1]		[2]		[0]		[0]		[0]		
+
+Next free positions: [(6, 8)] [(5, 9)] [(8, 7)] 
+
+[125065 ms/375196](Controller): Destination [(6, 8)] was sent to [drone_6] with distance: [6]
+[125065 ms/375196](drone_6): Travelling
+[126059 ms/378178](drone_9): Discovering
+[126063 ms/378190](drone_0): Finished discovering
+[126063 ms/378190](drone_0): Waiting for controller
+[126065 ms/378196](Controller): Destination [(9, 6)] was discovered by [drone_0]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[0]		[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[-1]	
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[2]		[0]		
+[0]		[2]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[0]		[0]		[2]		[2]		[1]		[1]		[1]		[-1]	[0]		[0]		
+[0]		[0]		[0]		[2]		[1]		[1]		[3]		[-1]	[0]		[0]		
+
+Next free positions: [(5, 9)] [(8, 7)] [(9, 7)] 
+
+[126065 ms/378196](drone_1): Discovering
+[126067 ms/378202](Controller): Destination [(5, 9)] was sent to [drone_0] with distance: [7]
+[126067 ms/378202](drone_0): Travelling
+[128057 ms/384172](drone_7): Finished discovering
+[128057 ms/384172](drone_7): Waiting for controller
+[128059 ms/384178](Controller): Destination [(8, 3)] was discovered by [drone_7]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[0]		[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[2]		[0]		
+[0]		[2]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[0]		[0]		[2]		[3]		[1]		[1]		[1]		[-1]	[0]		[0]		
+[0]		[0]		[0]		[2]		[1]		[1]		[1]		[-1]	[0]		[0]		
+
+Next free positions: [(8, 7)] [(9, 7)] 
+
+[128061 ms/384184](Controller): Destination [(8, 7)] was sent to [drone_7] with distance: [4]
+[128061 ms/384184](drone_7): Travelling
+[128063 ms/384190](drone_3): Finished discovering
+[128063 ms/384190](drone_3): Waiting for controller
+[128065 ms/384196](Controller): Destination [(5, 1)] was discovered by [drone_3]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[-1]	[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[2]		[0]		
+[0]		[2]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[0]		[0]		[2]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[0]		[0]		[0]		[2]		[1]		[1]		[1]		[-1]	[0]		[0]		
+
+Next free positions: [(9, 7)] [(5, 0)] 
+
+[128065 ms/384196](drone_5): Finished discovering
+[128065 ms/384196](drone_5): Waiting for controller
+[128067 ms/384202](Controller): Destination [(7, 1)] was discovered by [drone_5]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[-1]	[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[2]		[0]		
+[-1]	[3]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[0]		[-1]	[2]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[0]		[0]		[0]		[2]		[1]		[1]		[1]		[2]		[0]		[0]		
+
+Next free positions: [(9, 7)] [(5, 0)] [(8, 1)] [(7, 0)] 
+
+[128067 ms/384202](Controller): Destination [(9, 7)] was sent to [drone_3] with distance: [10]
+[128067 ms/384202](drone_3): Travelling
+[128069 ms/384208](Controller): Destination [(5, 0)] was sent to [drone_5] with distance: [3]
+[128069 ms/384208](drone_5): Travelling
+[129063 ms/387190](drone_2): Discovering
+[130059 ms/390178](drone_4): Finished discovering
+[130059 ms/390178](drone_4): Waiting for controller
+[130061 ms/390184](Controller): Destination [(9, 3)] was discovered by [drone_4]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[2]		[0]		
+[-1]	[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[0]		[-1]	[2]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[0]		[0]		[-1]	[3]		[1]		[1]		[1]		[2]		[0]		[0]		
+
+Next free positions: [(8, 1)] [(7, 0)] [(9, 2)] 
+
+[130063 ms/390190](Controller): Destination [(8, 1)] was sent to [drone_4] with distance: [5]
+[130063 ms/390190](drone_4): Travelling
+[131059 ms/393178](drone_9): Finished discovering
+[131059 ms/393178](drone_9): Waiting for controller
+[131061 ms/393184](Controller): Destination [(7, 7)] was discovered by [drone_9]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[2]		[0]		
+[-1]	[1]		[1]		[1]		[1]		[1]		[1]		[3]		[-1]	[0]		
+[0]		[2]		[2]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[0]		[0]		[-1]	[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+
+Next free positions: [(7, 0)] [(9, 2)] [(7, 8)] 
+
+[131063 ms/393190](Controller): Destination [(7, 0)] was sent to [drone_9] with distance: [7]
+[131063 ms/393190](drone_9): Travelling
+[131065 ms/393196](drone_1): Finished discovering
+[131065 ms/393196](drone_1): Waiting for controller
+[131067 ms/393202](Controller): Destination [(6, 7)] was discovered by [drone_1]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		[2]		[0]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[-1]	[0]		
+[0]		[2]		[2]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[0]		[0]		[-1]	[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+
+Next free positions: [(9, 2)] [(7, 8)] 
+
+[131069 ms/393208](Controller): Destination [(9, 2)] was sent to [drone_1] with distance: [8]
+[131069 ms/393208](drone_1): Travelling
+[134063 ms/402190](drone_2): Finished discovering
+[134063 ms/402190](drone_2): Waiting for controller
+[134065 ms/402196](Controller): Destination [(8, 2)] was discovered by [drone_2]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[-1]	[0]		
+[0]		[2]		[3]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[0]		[0]		[2]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+
+Next free positions: [(7, 8)] 
+
+[134067 ms/402202](Controller): Destination [(7, 8)] was sent to [drone_2] with distance: [7]
+[134067 ms/402202](drone_2): Travelling
+[134069 ms/402208](drone_5): Discovering
+[136061 ms/408184](drone_7): Discovering
+[137065 ms/411196](drone_6): Discovering
+[139069 ms/417208](drone_5): Finished discovering
+[139069 ms/417208](drone_5): Waiting for controller
+[139071 ms/417214](Controller): Destination [(5, 0)] was discovered by [drone_5]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[0]		[2]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+[0]		[0]		[2]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+
+Next free positions: 
+
+[140061 ms/420184](drone_8): Discovering
+[140063 ms/420190](drone_4): Discovering
+[140067 ms/420202](drone_0): Discovering
+[141061 ms/423184](drone_7): Finished discovering
+[141061 ms/423184](drone_7): Waiting for controller
+[141063 ms/423190](Controller): Destination [(8, 7)] was discovered by [drone_7]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[0]		[2]		[1]		[1]		[1]		[1]		[1]		[3]		[-1]	[0]		
+[0]		[0]		[2]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+
+Next free positions: [(8, 8)] 
+
+[141065 ms/423196](Controller): Destination [(8, 8)] was sent to [drone_7] with distance: [1]
+[141065 ms/423196](drone_7): Travelling
+[142065 ms/426196](drone_6): Finished discovering
+[142065 ms/426196](drone_6): Waiting for controller
+[142067 ms/426202](Controller): Destination [(6, 8)] was discovered by [drone_6]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		[-1]	
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[0]		[2]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[0]		[0]		[2]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+
+Next free positions: [(6, 9)] 
+
+[142069 ms/426208](Controller): Destination [(6, 9)] was sent to [drone_6] with distance: [1]
+[142069 ms/426208](drone_6): Travelling
+[143065 ms/429196](drone_7): Discovering
+[144069 ms/432208](drone_6): Discovering
+[145061 ms/435184](drone_8): Finished discovering
+[145061 ms/435184](drone_8): Waiting for controller
+[145063 ms/435190](Controller): Destination [(6, 0)] was discovered by [drone_8]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[0]		[2]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[0]		[0]		[2]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+
+Next free positions: 
+
+[145063 ms/435190](drone_9): Discovering
+[145063 ms/435190](drone_4): Finished discovering
+[145063 ms/435190](drone_4): Waiting for controller
+[145065 ms/435196](Controller): Destination [(8, 1)] was discovered by [drone_4]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[-1]	[3]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[0]		[-1]	[2]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+
+Next free positions: [(9, 1)] [(8, 0)] 
+
+[145067 ms/435202](Controller): Destination [(9, 1)] was sent to [drone_4] with distance: [1]
+[145067 ms/435202](drone_4): Travelling
+[145067 ms/435202](drone_0): Finished discovering
+[145067 ms/435202](drone_0): Waiting for controller
+[145069 ms/435208](Controller): Destination [(5, 9)] was discovered by [drone_0]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[0]		[2]		[2]		[1]		[1]		[1]		[1]		[2]		[0]		[0]		
+
+Next free positions: [(8, 0)] 
+
+[145069 ms/435208](Controller): Destination [(8, 0)] was sent to [drone_8] with distance: [4]
+[145069 ms/435208](drone_8): Travelling
+[147067 ms/441202](drone_4): Discovering
+[147069 ms/441208](drone_1): Discovering
+[148065 ms/444196](drone_7): Finished discovering
+[148065 ms/444196](drone_7): Waiting for controller
+[148067 ms/444202](Controller): Destination [(8, 8)] was discovered by [drone_7]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[0]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		[-1]	
+[0]		[2]		[2]		[1]		[1]		[1]		[1]		[2]		[-1]	[0]		
+
+Next free positions: [(9, 8)] [(8, 9)] 
+
+[148067 ms/444202](drone_2): Discovering
+[148067 ms/444202](drone_3): Discovering
+[148069 ms/444208](Controller): Destination [(9, 8)] was sent to [drone_7] with distance: [1]
+[148069 ms/444208](drone_7): Travelling
+[148071 ms/444214](Controller): Destination [(8, 9)] was sent to [drone_0] with distance: [7]
+[148071 ms/444214](drone_0): Travelling
+[149069 ms/447208](drone_6): Finished discovering
+[149069 ms/447208](drone_6): Waiting for controller
+[149071 ms/447214](Controller): Destination [(6, 9)] was discovered by [drone_6]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[-1]	
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[0]		[2]		[2]		[1]		[1]		[1]		[1]		[2]		[2]		[0]		
+
+Next free positions: [(7, 9)] 
+
+[149073 ms/447220](Controller): Destination [(7, 9)] was sent to [drone_6] with distance: [1]
+[149073 ms/447220](drone_6): Travelling
+[150063 ms/450190](drone_9): Finished discovering
+[150063 ms/450190](drone_9): Waiting for controller
+[150065 ms/450196](Controller): Destination [(7, 0)] was discovered by [drone_9]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[2]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[0]		[2]		[2]		[1]		[1]		[1]		[1]		[2]		[2]		[0]		
+
+Next free positions: 
+
+[150069 ms/450208](drone_7): Discovering
+[151073 ms/453220](drone_6): Discovering
+[152067 ms/456202](drone_4): Finished discovering
+[152067 ms/456202](drone_4): Waiting for controller
+[152069 ms/456208](Controller): Destination [(9, 1)] was discovered by [drone_4]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[2]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[-1]	[3]		[2]		[1]		[1]		[1]		[1]		[2]		[2]		[0]		
+
+Next free positions: [(9, 0)] 
+
+[152069 ms/456208](drone_1): Finished discovering
+[152069 ms/456208](drone_1): Waiting for controller
+[152071 ms/456214](Controller): Destination [(9, 2)] was discovered by [drone_1]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		[2]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[2]		[1]		[3]		[1]		[1]		[1]		[1]		[2]		[2]		[0]		
+
+Next free positions: [(9, 0)] 
+
+[152071 ms/456214](Controller): Destination [(9, 0)] was sent to [drone_4] with distance: [1]
+[152071 ms/456214](drone_4): Travelling
+[153067 ms/459202](drone_2): Finished discovering
+[153067 ms/459202](drone_2): Waiting for controller
+[153067 ms/459202](drone_3): Finished discovering
+[153067 ms/459202](drone_3): Waiting for controller
+[153069 ms/459208](Controller): Destination [(7, 8)] was discovered by [drone_2]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		[2]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[2]		[1]		[3]		[1]		[1]		[1]		[1]		[2]		[2]		[0]		
+
+Next free positions: 
+
+[153069 ms/459208](drone_8): Discovering
+[153070 ms/459211](Controller): Destination [(9, 7)] was discovered by [drone_3]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		[2]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[2]		[1]		[3]		[1]		[1]		[1]		[1]		[3]		[2]		[0]		
+
+Next free positions: 
+
+[154071 ms/462214](drone_4): Discovering
+[155069 ms/465208](drone_7): Finished discovering
+[155069 ms/465208](drone_7): Waiting for controller
+[155071 ms/465214](Controller): Destination [(9, 8)] was discovered by [drone_7]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		[2]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[2]		[1]		[3]		[1]		[1]		[1]		[1]		[3]		[3]		[-1]	
+
+Next free positions: [(9, 9)] 
+
+[155073 ms/465220](Controller): Destination [(9, 9)] was sent to [drone_7] with distance: [1]
+[155073 ms/465220](drone_7): Travelling
+[156073 ms/468220](drone_6): Finished discovering
+[156073 ms/468220](drone_6): Waiting for controller
+[156075 ms/468226](Controller): Destination [(7, 9)] was discovered by [drone_6]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		[3]		
+[2]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[2]		[1]		[3]		[1]		[1]		[1]		[1]		[3]		[1]		[2]		
+
+Next free positions: 
+
+[157073 ms/471220](drone_7): Discovering
+[158069 ms/474208](drone_8): Finished discovering
+[158069 ms/474208](drone_8): Waiting for controller
+[158071 ms/474214](Controller): Destination [(8, 0)] was discovered by [drone_8]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		[3]		
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[2]		[1]		[3]		[1]		[1]		[1]		[1]		[3]		[1]		[2]		
+
+Next free positions: 
+
+[159071 ms/477214](drone_4): Finished discovering
+[159071 ms/477214](drone_4): Waiting for controller
+[159073 ms/477220](Controller): Destination [(9, 0)] was discovered by [drone_4]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		[3]		
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[3]		[1]		[3]		[1]		[1]		[1]		[1]		[3]		[1]		[2]		
+
+Next free positions: 
+
+[162071 ms/486214](drone_0): Discovering
+[162073 ms/486220](drone_7): Finished discovering
+[162073 ms/486220](drone_7): Waiting for controller
+[162075 ms/486226](Controller): Destination [(9, 9)] was discovered by [drone_7]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		[3]		
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[2]		
+[3]		[1]		[3]		[1]		[1]		[1]		[1]		[3]		[1]		[3]		
+
+Next free positions: 
+
+[167071 ms/501214](drone_0): Finished discovering
+[167071 ms/501214](drone_0): Waiting for controller
+[167073 ms/501220](Controller): Destination [(8, 9)] was discovered by [drone_0]
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		[3]		
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		
+[3]		[1]		[3]		[1]		[1]		[1]		[1]		[3]		[1]		[3]		
+
+Next free positions: 
+
+[167073 ms/501220](Controller): Mission complete, calling drones back
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		[3]		
+[3]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[3]		
+[3]		[1]		[3]		[1]		[1]		[1]		[1]		[3]		[1]		[3]		
+
+Real world Map
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[99]	[99]	[99]	[99]	[99]	[0]		[0]		[99]	[99]	[99]	
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		[0]		
+
+[167074 ms/501223](drone_0): Travelling
+[167075 ms/501226](drone_1): Travelling
+[167076 ms/501229](drone_2): Travelling
+[167077 ms/501232](drone_3): Travelling
+[167078 ms/501235](drone_4): Travelling
+[167079 ms/501238](drone_5): Travelling
+[167080 ms/501241](drone_6): Travelling
+[167081 ms/501244](drone_7): Travelling
+[167082 ms/501247](drone_8): Travelling
+[167083 ms/501250](drone_9): Travelling
+[197076 ms/591229](drone_2): Waiting for controller
+[197079 ms/591238](drone_5): Waiting for controller
+[199077 ms/597232](drone_3): Waiting for controller
+[199080 ms/597241](drone_6): Waiting for controller
+[201074 ms/603223](drone_0): Waiting for controller
+[201075 ms/603226](drone_1): Waiting for controller
+[201083 ms/603250](drone_9): Waiting for controller
+[203081 ms/609244](drone_7): Waiting for controller
+[203082 ms/609247](drone_8): Waiting for controller
+[205078 ms/615235](drone_4): Waiting for controller
+[205081 ms/615244](Controller): All drones came back
+
+Map
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[99]	[99]	[99]	[99]	[99]	[1]		[1]		[99]	[99]	[99]	
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		[1]		
+
+Info: /OSCI/SystemC: Simulation stopped by user.
+Freeing Memory
