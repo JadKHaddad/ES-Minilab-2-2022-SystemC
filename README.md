@@ -7,7 +7,8 @@
 * **[99]** statically blocked
 * **[-1]** free, can be discovered 
 ## Usage
-Define map size and drones count in ```const.hpp```<br>
+Define map size in ```const.hpp``` 10, 20 or 50<br>
+Define drones count in ```const.hpp```<br>
 Define scenarios in ```controller.hpp```<br> 
 Use your own Makefile.
 ## Output
