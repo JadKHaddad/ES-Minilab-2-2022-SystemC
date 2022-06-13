@@ -38,7 +38,7 @@ int min_distance(int grid[N][N], Pos from, Pos to)
 		QItem p = q.front();
 		q.pop();
 
-		//destination found;
+		//destination found
 		if (p.row == to.row && p.col == to.col)
 			return p.dist;
 
