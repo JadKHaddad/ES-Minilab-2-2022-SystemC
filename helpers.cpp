@@ -10,8 +10,8 @@ int min_distance(int grid[N][N], Pos from, Pos to)
 {
     QItem source(from.row, from.col, 0);
 
-	// To keep track of visited QItems. Marking
-	// blocked cells as visited.
+	//to keep track of visited QItems. marking
+	//blocked cells as visited.
 	bool visited[N][N];
 	for (int i = 0; i < N; i++) {
 		for (int j = 0; j < N; j++)
@@ -21,7 +21,7 @@ int min_distance(int grid[N][N], Pos from, Pos to)
 				visited[i][j] = false;
 				continue;
 			}
-			if (grid[i][j] == 0 || grid[i][j] == 99 || grid[i][j] == 2 || grid[i][j] == 3 || grid[i][j] == -1) //cant visit 0 is unknown, 99 is wall, 2 to be discovered, 3 a drone is there, -1 could be discovered
+			if (grid[i][j] == 0 || grid[i][j] == 99 || grid[i][j] == 2 || grid[i][j] == 3 || grid[i][j] == -1) //can't visit 0 is unknown, 99 is wall, 2 to be discovered, 3 a drone is there, -1 could be discovered
 			{
 				visited[i][j] = true;
 				continue;
@@ -30,7 +30,7 @@ int min_distance(int grid[N][N], Pos from, Pos to)
 		}
 	}
 
-	// applying BFS on matrix cells starting from source
+	//applying BFS on matrix cells starting from source
 	queue<QItem> q;
 	q.push(source);
 	visited[source.row][source.col] = true;
@@ -38,32 +38,32 @@ int min_distance(int grid[N][N], Pos from, Pos to)
 		QItem p = q.front();
 		q.pop();
 
-		// Destination found;
+		//destination found;
 		if (p.row == to.row && p.col == to.col)
 			return p.dist;
 
-		// moving up
+		//moving up
 		if (p.row - 1 >= 0 &&
 			visited[p.row - 1][p.col] == false) {
 			q.push(QItem(p.row - 1, p.col, p.dist + 1));
 			visited[p.row - 1][p.col] = true;
 		}
 
-		// moving down
+		//moving down
 		if (p.row + 1 < N &&
 			visited[p.row + 1][p.col] == false) {
 			q.push(QItem(p.row + 1, p.col, p.dist + 1));
 			visited[p.row + 1][p.col] = true;
 		}
 
-		// moving left
+		//moving left
 		if (p.col - 1 >= 0 &&
 			visited[p.row][p.col - 1] == false) {
 			q.push(QItem(p.row, p.col - 1, p.dist + 1));
 			visited[p.row][p.col - 1] = true;
 		}
 
-		// moving right
+		//moving right
 		if (p.col + 1 < N &&
 			visited[p.row][p.col + 1] == false) {
 			q.push(QItem(p.row, p.col + 1, p.dist + 1));

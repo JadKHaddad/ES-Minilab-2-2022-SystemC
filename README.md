@@ -10,7 +10,7 @@
 Define map size in ```const.hpp``` 10, 20 or 50<br>
 Define drones count in ```const.hpp```<br>
 Define scenarios in ```controller.hpp```<br> 
-Use your own Makefile.
+Use your own Makefile with ```-I headers```
 ## Output
 See ```output``` for scenarios outputs.<br>
 * **scenario_1_3_drones:** success

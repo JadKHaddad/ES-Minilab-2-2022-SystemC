@@ -6,6 +6,7 @@
 
 int sc_main(int argc, char* argv[])
 {
+  //create modules, clock, ports and signals
   sc_clock clksig("clk", 1, SC_MS);
   Controller controller("Controller");
 
@@ -18,6 +19,7 @@ int sc_main(int argc, char* argv[])
   sc_signal<sc_int<16>> travel_dist_signals[DRONE_COUNT];
   Drone *drones[DRONE_COUNT];
 
+  //connect drones to the controller
   for(int i = 0; i < DRONE_COUNT; ++i){
     auto name = "drone_" + std::to_string( i );
     const char *cname = name.c_str();
@@ -42,6 +44,7 @@ int sc_main(int argc, char* argv[])
   sc_start();
 
   cout << "Freeing Memory" << endl;
+  //free memory
   for(int i = 0; i < DRONE_COUNT; ++i){
     delete(drones[i]);
   }
